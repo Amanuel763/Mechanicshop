@@ -73,6 +73,8 @@ color: #bb0000;
     color: rgb(255, 178, 62) !important;
     font-size: 5rem;
     margin-top: 2rem;
+    font-family: 'Neucha', cursive;
+
 }
 
 .jumbotron-word{
@@ -83,7 +85,7 @@ color: #bb0000;
     background-color: rgba(252, 246, 245, 0.5);
     padding: 5rem 2.5rem;
     font-size: 1.6rem;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Neucha', cursive;
   
   
     animation-name: moveInRight;
@@ -107,6 +109,10 @@ h5{
 
 /*What We Do Section*/
 
+.container-text{
+    font-family: 'Neucha', cursive;
+    font-size: 1.3rem;
+}
 
 .about-padding{
     margin-top: 2rem;
@@ -153,6 +159,8 @@ h5{
     background-color: rgba(253, 117, 117, 0.9);
     margin-top: -4vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+    font-family: 'Neucha', cursive;
+
 
 }
 
@@ -205,7 +213,36 @@ h5{
     border: 2px solid #e20c89;
 }
 
+/*footer*/
 
+.footer-container{
+    background-color: #d6710c;
+    color: #ffffff;
+    height: 30vh;
+    font-family: 'Neucha', cursive;
+    font-size: 1.1rem;
+
+}
+
+.footer-padding{
+    padding-top: 4rem;
+}
+
+.hr-footer-1{
+    width: 50%;
+    margin-left: 8rem;
+    background-color: black;
+}
+
+.hr-footer-2{
+    width: 50%;
+    margin-left: 16rem;
+    background-color: black;
+}
+
+.footer-span{
+    color: rgb(41, 49, 37);
+}
 
 @keyframes moveInRight{
     0%{
