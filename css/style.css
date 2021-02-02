@@ -107,7 +107,7 @@ h5{
 }
 
 .overlay-position{
-    margin-top: 10rem; 
+    margin-top: 12rem; 
 }
 
 
@@ -124,8 +124,9 @@ h5{
 
 .container-background{
     background-color: rgba(250, 67, 35, 0.89);
-    height: 60vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50vh);
+    height: 30rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 45vh);
+
 }
 
 .hr-line{
@@ -159,17 +160,19 @@ h5{
 
 .container-farbe{
     background-color: rgba(253, 117, 117, 0.9);
-    margin-top: -4vh;
+    margin-top: -4rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
     font-family: 'Neucha', cursive;
+
 
 
 }
 
 .container-testimonial{
-    height: 70vh;
-    clip-path: polygon(0 0, 100% 10vh, 100% 100%, 0 100%);
-    margin-top: -10.1vh;
+    height: 40rem;
+    clip-path: polygon(0 0, 100% 16vh, 100% 100%, 0 100%);
+    margin-top: -16vh;
+
 }
 
 .testimonial-header{
@@ -219,7 +222,7 @@ h5{
 .footer-container{
     background-color: #d6710c;
     color: #ffffff;
-    height: 30vh;
+    height: 20rem;
     font-family: 'Neucha', cursive;
     font-size: 1.1rem;
 
@@ -251,7 +254,7 @@ h5{
 .container-fluid-gallery{
     padding-top: 45px;
     background-color: rgb(248, 232, 187);
-    height: 100vh;
+    height: 300vh;
 }
 
 .flex-column{
@@ -271,9 +274,352 @@ h5{
         opacity: 1;
         transform: translate(0);
     }
+}
 
+@media (max-width: 22.5em){ /*360*/
+    body,html{
+        overflow-x: hidden;
+    }
+
+    .overlay-width{
+        width: 90% !important;
+    }
+
+    .overlay-position{
+        margin-top: 3rem !important;
+    }
+
+    .container-background{
+        height: 57rem !important;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 127vh) !important;
+    }
+
+    .header-text{
+        margin-bottom: 0rem !important;
+    }
+
+    .testimonial-header {
+        margin-top: 5rem !important;
+    }
+
+    .hr-text-line{
+        margin-left: 7.5rem !important;
+    }
+
+    .hr-line{
+        margin-left: 7.5rem !important;
+    }
+
+    .hr-footer-1{
+        margin-left: 5.2rem !important;
+    }
     
-  }
+    .hr-footer-2{
+        margin-left: 5.2rem !important;
+    }
+
+    .footer-container{
+        height: 32rem;
+    }
+}
+
+@media (max-width: 23.4375em){ /*375*/
+    body,html{
+        overflow-x: hidden;
+    }
+
+    .overlay-width{
+        width: 90% !important;
+    }
+
+    .overlay-position{
+        margin-top: 3rem !important;
+    }
+
+    .container-background{
+        height: 57rem !important;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 127vh) !important;
+    }
+
+    .header-text{
+        margin-bottom: 0rem !important;
+    }
+
+    .hr-text-line{
+        margin-left: 7.5rem !important;
+    }
+
+    .hr-line{
+        margin-left: 7.5rem !important;
+    }
+
+    .hr-footer-1{
+        margin-left: 5.7rem !important;
+    }
+    
+    .hr-footer-2{
+        margin-left: 5.2rem !important;
+    }
+
+    .footer-container{
+        height: 32rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 25.6875em){ /*411px*/
+    body,html{
+        overflow-x: hidden;
+    }
+
+    .overlay-width{
+        width: 100% !important;
+    }
+
+    .overlay-position{
+        margin-top: 5rem !important;
+    }
+
+    .hr-line{
+        margin-left: 8.5rem !important;
+    }
+
+    .container-background{
+        height: 48rem !important;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+    }
+
+    .container-testimonial{
+        height: 39rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        margin-top: 0rem;
+    }
+
+    .header-text{
+        margin-bottom: 6rem;
+    }
+
+    .testimonial-header {
+        margin-top: 5rem !important;
+    }
+
+    .footer-container{
+        height: 30rem;
+    }
+
+    .hr-footer-1{
+        margin-left: 5.7rem !important;
+    }
+}
+
+@media (max-width: 25.875em){
+    body,html{
+        overflow-x: hidden;
+    }
+
+    .overlay-width{
+        width: 100% !important;
+    }
+
+    .overlay-position{
+        margin-top: 3rem !important;
+    }
+
+    .hr-line{
+        margin-left: 8.5rem !important;
+    }
+
+    .container-background{
+        height: 48rem !important;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+    }
+
+    .container-testimonial{
+        height: 39rem !important;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+        margin-top: 0rem !important;
+    }
+
+    .header-text{
+        margin-bottom: 6rem;
+    }
+
+    .footer-container{
+        height: 30rem;
+    }
+
+    .hr-footer-1{
+        margin-left: 5.7rem !important;
+    }
+}
+
+ /*600px*/
+
+@media (max-width: 37.5em){
+    body,html{
+        overflow-x: hidden;
+    }
+
+    .overlay-position{
+        margin-top: 9rem;
+    }
+
+    .overlay-width{
+        width: 67%;
+    }
+
+    .overlay-text{
+        padding: 2rem 0.5rem;
+    }
+
+    .container-background{
+        height: 33rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+
+    }
+
+    .hr-text-line{
+        margin-left: 3.5rem;
+    }
+
+    .hr-line{
+        margin-left: 12.5rem;
+    }
+
+    .hr-footer-1{
+        margin-left: 2.7rem;
+    }
+
+    .hr-footer-2{
+        margin-left: 6rem;
+    }
+}
+
+
+@media (max-width: 48em) /*768*/{
+    body,html{
+        overflow-x: hidden;
+    }
+
+    .overlay-position{
+        margin-top: 10rem;
+    }
+
+    .overlay-width{
+        width: 67%;
+    }
+
+    .overlay-text{
+        padding: 2rem 0.5rem;
+    }
+
+    .container-background{
+        height: 34rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 36vh);
+    }
+
+    .testimonial-header {
+        margin-top: 7rem;
+    }
+
+    .hr-line{
+        margin-left: 16rem;
+    }
+
+    .hr-footer-1{
+        margin-left: 3.6rem;
+    }
+    
+    .hr-footer-2{
+        margin-left: 7rem;
+    }
+}
+
+@media (max-width: 64em) /*768*/{
+    body,html{
+        overflow-x: hidden;
+    }
+
+    .overlay-position{
+        margin-top: 10rem;
+    }
+
+    .overlay-width{
+        width: 67%;
+    }
+
+    .overlay-text{
+        padding: 2rem 0.5rem;
+    }
+
+    .container-background{
+        height: 26rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 39.6vh);
+    }
+
+    .container-testimonial{
+        height: 40rem;
+        clip-path: polygon(0 0, 100% 0vh, 100% 100%, 0 100%);
+        margin-top: -1vh;
+    }
+
+    .testimonial-header {
+        margin-top: 7rem;
+    }
+
+    .hr-line{
+        margin-left: 16rem;
+    }
+
+    .hr-footer-1{
+        margin-left: 3.6rem;
+    }
+    
+    .hr-footer-2{
+        margin-left: 7rem;
+    }
+}
+/*
+
+
+@media (max-width: 1024px){
+    .jumbotron-text{
+        transform: translateY(7rem);
+    }
+
+    .container-background{
+        height: 35vh;
+    
+    }
+
+    .container-testimonial{
+        height: 40vh;
+        clip-path: none;
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    .overlay-position{
+        padding: 3rem 1.5rem;
+        font-size: 1.2rem;
+
+    }
+    .container-background{
+        height: 45vh;
+    }
+
+    .container-testimonial{
+        height: 60vh;
+    }
+}
 
 
 @media (max-width: 400px){
@@ -288,8 +634,6 @@ h5{
     .container-background{
         height: 90vh;
     }
-
-
 }
 
 @media (max-width: 576px) {
@@ -360,8 +704,21 @@ h5{
         width: 20%;
         margin-left: 9.9rem;
     }
-    
 }
+
+@media (max-width:320px){
+    .jumbotron-text{
+        margin-top: -7rem !important;
+    }
+
+    .overlay-position{
+        margin-top: 2rem;
+    }
+}
+
+
+*/
+
 /*
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { ... }
