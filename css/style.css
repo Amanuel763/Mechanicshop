@@ -125,7 +125,7 @@ h5{
 .container-background{
     background-color: rgba(250, 67, 35, 0.89);
     height: 30rem;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 45vh);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 48vh);
 
 }
 
